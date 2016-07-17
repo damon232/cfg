@@ -1,0 +1,14 @@
+! ~/.Xresources for user:damon 
+! original file written on Raspbian-jessie(lite) where sourced by /etc/X11/Xsession   
+! note: other distros may initiate X sessions in slightly different ways
+! directory: look in /etc/X11/ on your specific system 
+!
+! ---------------------------------------------------------------------------------------------------------------
+
+xterm*faceName: Anonymous Pro Bold:size=10
+xterm*background: #000000
+xterm*foreground: #ffffff
+
+   
+
+
