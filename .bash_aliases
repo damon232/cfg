@@ -10,10 +10,12 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
+# ls aliases
 #alias ll='ls -l'
-#alias la='ls -A'
 #alias l='ls -CF'
+
+#rm alias 
+alias rm='rm -i'
 
 # git alias for dotfile git repository 
 alias dfgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
