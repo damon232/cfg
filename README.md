@@ -15,7 +15,6 @@ alias dfgit='usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
 ######add remote repo to github
 ```bash
-dfgit remote add <remote> <url>
 dfgit remote add origin git@github.com:damon232/dotfiles.git
 dfgit remote add origin https://github.com/damon232/dotfiles.git 
 ```    
@@ -29,9 +28,9 @@ ssh-add ~/.ssh/<id_rsa>
 ```bash 
 dfgit status 
 dfgit remote -v
-dfgit remote add <remote> <branch-name>
+dfgit remote add <remote> <url>
 dfgit add .bashrc
 dfgit commit -m "Add bashrc"
-dfgit push 
+dfgit push <remote> <branch-name>
 dfgit checkout 
 ```
