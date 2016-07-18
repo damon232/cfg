@@ -11,6 +11,9 @@ sudo pacman -S git
 mkdir $HOME/.cfg
 git init --bare $HOME/.cfg
 alias dfgit='usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+dfgit remote add origin git@github.com:damon232/dotfiles.git
+|OR|
 dfgit remote add origin https://github.com/damon232/dotfiles.git 
 ```
  
