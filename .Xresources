@@ -1,13 +1,49 @@
 ! ~/.Xresources for user:damon 
-! original file written on Raspbian-jessie(lite) where sourced by /etc/X11/Xsession   
-! note: other distros may initiate X sessions in slightly different ways
-! directory: look in /etc/X11/ on your specific system 
+! /etc/X11/ directory gives more info 
 !
-! ---------------------------------------------------------------------------------------------------------------
+! ---------------------------------------------------------------------
 
 xterm*faceName: Anonymous Pro Bold:size=10
-xterm*background: #000000
+!xterm*faceName: Inconsolata:style=Regular
+xterm*background: #0d0d0d
 xterm*foreground: #ffffff
+
+!!Normal Colours!!
+!!black
+!XTerm*color0: #000000
+!!red
+!XTerm*color1: #910808
+!!green
+!XTerm*color2: #089108
+!!Yellow
+!XTerm*color3: #919108
+!!Blue
+!XTerm*color4: #084d91
+!!Magenta
+!XTerm*color5: #910891
+!!Cyan
+!XTerm*color6: #089191
+!!LightGrey
+!XTerm*color7: #bfbfbf
+
+!!Bright Colors!!
+!!DarkGrey
+!XTerm*color8: #595959
+!!Red
+!XTerm*color9: #ff1717
+!!Green
+!XTerm*color10: #16f216
+!!Yellow
+!XTerm*color11: #ffc61a
+!!Blue
+!XTerm*color12: #3d99f5
+!!Magenta
+!XTerm*color13: #ff1aff
+!!Cyan
+!XTerm*color14: #1affff
+!!White
+!XTerm*color15: #ffffff
+
 
    
 
