@@ -44,7 +44,7 @@ fi
 ##      		 ##
 
 #export PS1="\[\033[30;1m\]\w \$ \[\033[0m\]"
-#[ -f ~/.config/ranger/rc.conf ] && export RANGER_LOAD_DEFAULT_RC=FALSE
+[ -f ~/.config/ranger/rc.conf ] && export RANGER_LOAD_DEFAULT_RC=FALSE
 export CDPATH=:$HOME:$HOME/.config:$HOME/documents
 export EDITOR=nano
 #export C_INCLUDE_PATH=:/usr/local/include:/usr/local/lib
