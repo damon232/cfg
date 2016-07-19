@@ -1,6 +1,8 @@
 #
 # ~/.bashrc for user:damon 
 #
+#############################
+
 
 # If not running interactively, don't do anything
 case $- in
@@ -37,7 +39,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-## VARIABLES ##
+##		         ##
+######## VARIABLES ########
+##      		 ##
 
 #export PS1="\[\033[30;1m\]\w \$ \[\033[0m\]"
 #[ -f ~/.config/ranger/rc.conf ] && export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -83,7 +87,10 @@ xterm*|rxvt*)
     ;;
 esac
 
-## ALIASES ##
+
+##		       ##
+######## ALIASES ########
+##		       ##
 
 # check for ~/.bash_aliases file
 if [ -f ~/.bash_aliases ]; then
