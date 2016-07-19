@@ -1,48 +1,54 @@
-! ~/.Xresources for user:damon 
-! /etc/X11/ directory gives more info 
 !
-! ---------------------------------------------------------------------
+! ~/.Xresources for debpi:damon 
+! /etc/X11/ directory for system specific info 
+!
+!
 
 xterm*faceName: Anonymous Pro Bold:size=10
 !xterm*faceName: Inconsolata:style=Regular
 xterm*background: #0d0d0d
 xterm*foreground: #ffffff
 
-!!Normal Colours!!
-!!black
-!XTerm*color0: #000000
-!!red
-!XTerm*color1: #910808
-!!green
-!XTerm*color2: #089108
-!!Yellow
-!XTerm*color3: #919108
-!!Blue
-!XTerm*color4: #084d91
-!!Magenta
-!XTerm*color5: #910891
-!!Cyan
-!XTerm*color6: #089191
-!!LightGrey
-!XTerm*color7: #bfbfbf
 
-!!Bright Colors!!
-!!DarkGrey
-!XTerm*color8: #595959
-!!Red
-!XTerm*color9: #ff1717
-!!Green
-!XTerm*color10: #16f216
-!!Yellow
-!XTerm*color11: #ffc61a
-!!Blue
-!XTerm*color12: #3d99f5
-!!Magenta
-!XTerm*color13: #ff1aff
-!!Cyan
-!XTerm*color14: #1affff
-!!White
-!XTerm*color15: #ffffff
+!! COLOR SCHEME !!
+
+!!Normal Colors
+
+!Black
+!xterm*color0: #000000
+!Red
+!xterm*color1: #910808
+!Green
+!xterm*color2: #089108
+!Yellow
+!xterm*color3: #919108
+!Blue
+!xterm*color4: #084d91
+!Magenta
+!xterm*color5: #910891
+!Cyan
+!xterm*color6: #089191
+!LightGrey
+!xterm*color7: #bfbfbf
+
+!!Bright Colors
+
+!DarkGrey
+!xterm*color8: #595959
+!Red
+!xterm*color9: #ff1717
+!Green
+!xterm*color10: #16f216
+!Yellow
+!xterm*color11: #ffc61a
+!Blue
+!xterm*color12: #3d99f5
+!Magenta
+!xterm*color13: #ff1aff
+!Cyan
+!xterm*color14: #1affff
+!White
+!xterm*color15: #ffffff
 
 
    
