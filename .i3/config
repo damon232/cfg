@@ -1,6 +1,7 @@
 # 
-# If keyboard layout changes, re-run i3-config-wizard(1).
+# if keyboard layout changes, re-run i3-config-wizard(1).
 # i3 config file (v4)
+#
 
 
 ##			         ##
@@ -187,24 +188,19 @@ font pango:Terminus 10px
 
 bar {
         status_command i3status
-#	position top 
-#	workspace_buttons yes
-
+	position top 
+	workspace_buttons yes
 #	strip_workspace_numbers yes
 #	binding_mode_indicator no
-
-#	separator_symbol "|"
 #	font pango:DejaVu Sans Mono Bold 12 
 #	font pango:Arial Bold 12
-#    colors {
-#
-#	background 		#000000
-#	statusline 		#a6a6a6
-#	separator  		#a6a6a6
+    colors {
+#	background #000000
+#	statusline #a6a6a6
 #				 border   backg    text	
-#	focused_workspace 	#a6a6a6  #0d0d0d  #ffffff
-#	active_workspace	#333333  #0d0d0d  #c6c6c6
-#	inactive_workspace	#333333  #0d0d0d  #c6c6c6
+	focused_workspace 	#0033cc  #003311  #ffffff
+	active_workspace	#0033cc  #0033cc  #c6c6c6
+	inactive_workspace	#0033cc  #0033cc  #c6c6c6
 #	urgent_workspace	#1aff8c	 #006633  #c6c6c6	
-#}
+}
 }
