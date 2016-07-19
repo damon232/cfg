@@ -49,8 +49,8 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 bindsym $mod+v split v
 
-## fullscreen toggle 
-bindsym $mod+f fullscreen toggle
+## fullscreen-mode
+bindsym $mod+f fullscreen 
 
 ## container layout - stacked, tabbed, toggle split
 bindsym $mod+s layout stacking
