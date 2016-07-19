@@ -1,4 +1,4 @@
-# enable color support of ls and also add handy aliases
+# enable color support of ls|grep|fgrep|egrep... 
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls -A --color=auto'
@@ -10,11 +10,15 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# ls aliases
+# ls  
+alias lsd='ls -A --group-directories-first --color=auto'
 #alias ll='ls -l'
 #alias l='ls -CF'
 
-#rm alias 
+# chmod  
+alias ch='sudo chmod 755'
+
+# rm    
 alias rm='rm -i'
 
 # git alias for dotfile git repository 
