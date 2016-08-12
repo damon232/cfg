@@ -154,7 +154,10 @@ bindsym $mod2+d exec dillo
 bindsym $mod2+y exec xterm -e mpsyt 
 
 ## open newsbeuter
-#bindsym $mod2+n exec xterm -e newsbeuter
+bindsym $mod2+n exec xterm -e newsbeuter
+
+## open ranger 
+bindsym $mod2+r exec xterm -e ranger 
 
 
 ##				  ##
