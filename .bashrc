@@ -39,9 +39,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-##		         ##
+
 ######## VARIABLES ########
-##      		 ##
 
 #export PS1="\[\033[30;1m\]\w \$ \[\033[0m\]"
 [ -f ~/.config/ranger/rc.conf ] && export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -88,9 +87,7 @@ xterm*|rxvt*)
 esac
 
 
-##		       ##
 ######## ALIASES ########
-##		       ##
 
 # check for ~/.bash_aliases file
 if [ -f ~/.bash_aliases ]; then
