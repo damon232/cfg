@@ -101,5 +101,5 @@ fi
 #alias l='ls -CF'
 #alias ch='sudo chmod 755'
 #alias rm='rm -i'
-#alias dfgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+#alias dfgit='/usr/bin/git --git-dir=$HOME/.dfgit/ --work-tree=$HOME'
 

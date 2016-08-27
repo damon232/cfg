@@ -9,19 +9,28 @@ sudo pacman -S git
 ```
 ######prepare side directory to store bare Git repo
 ```bash
-mkdir $HOME/.cfg
-git init --bare $HOME/.cfg
-alias dfgit='usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+mkdir $HOME/.dfgit
+git init --bare $HOME/.dfgit
+alias dfgit='usr/bin/git --git-dir=$HOME/.dfgit/ --work-tree=$HOME'
 ```
 ######add remote repo to github
 ```bash
 dfgit remote add origin git@github.com:damon232/dotfiles.git
 dfgit remote add origin https://github.com/damon232/dotfiles.git 
 ```    
-######generate SSH keys (note: add key to Github profile) 
+######if SSH used; generate SSH keys (note: add key to Github profile) 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "<email>"
 ssh-add ~/.ssh/<id_rsa>
+```
+###Reinstall dotfiles on new system
+ 
+```bash
+alias dfgit='/usr/bin/git --git-dir=$HOME/.dfgit/ --work-tree=$HOME'
+echo ".dfgit" >> .gitignore 
+git clone --bare <git-repo-url> $HOME/.dfgit
+dfgit checkout
+dfgit config --local status.showUntrackedFiles no 
 ```
 
 ###Usage 
