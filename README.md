@@ -1,5 +1,5 @@
 # Dotfiles for damon
-a bare Git repo for maintaining configs 
+A bare Git repo for maintaining configs. 
 
 ###Setup
 ######download git 
@@ -39,6 +39,7 @@ dfgit status
 dfgit remote -v
 dfgit remote add <remote> <url>
 dfgit add .bashrc
+dfgit commit -a 
 dfgit commit -m "Add bashrc"
 dfgit push <remote> <branch-name>
 dfgit checkout 
