@@ -42,5 +42,6 @@ dfgit add .bashrc
 dfgit commit -a 
 dfgit commit -m "Add bashrc"
 dfgit push <remote> <branch-name>
+dfgit pull <remote> <branch-name>
 dfgit checkout 
 ```
