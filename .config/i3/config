@@ -201,9 +201,9 @@ bar {
 #	background #000000
 #	statusline #a6a6a6
 #				 border   backg    text	
-	focused_workspace 	#0033cc  #003311  #ffffff
-	active_workspace	#0033cc  #0033cc  #c6c6c6
-	inactive_workspace	#0033cc  #0033cc  #c6c6c6
+#	focused_workspace 	#0033cc  #003311  #ffffff
+#	active_workspace	#0033cc  #0033cc  #c6c6c6
+	inactive_workspace	#666666  #2f2f2f  #e6e6e6
 #	urgent_workspace	#1aff8c	 #006633  #c6c6c6	
 }
 }
